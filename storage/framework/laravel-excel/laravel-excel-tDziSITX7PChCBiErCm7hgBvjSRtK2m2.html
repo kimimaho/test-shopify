@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Shopify</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+       <a class="navbar-brand" href="http://shopify.test">Shopify</a>
+       <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+           aria-expanded="false" aria-label="Toggle navigation"></button>
+       <div class="collapse navbar-collapse" id="collapsibleNavId">
+           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+               <li class="nav-item active">
+                   <a class="nav-link" href="http://shopify.test">Accueil <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link" href="http://shopify.test/admin/list-produits ">Produits</a>
+               </li>
+               <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Produits</a>
+                   <div class="dropdown-menu" aria-labelledby="dropdownId">
+                       <a class="dropdown-item" href="http://shopify.test/admin/produits/create">Ajouter</a>
+                       <a class="dropdown-item" href="#">Action 2</a>
+                   </div>
+               </li>
+           </ul>
+          
+           <ul class="nav justify-content-center navbar-nav">
+                 
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">admin</a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                            <a onClick="event.preventDefault();document.getElementById('deconnexion').submit();" class="dropdown-item" href="http://shopify.test/logout">Deconnexion</a>
+                            <form id="deconnexion" action="http://shopify.test/logout" method="POST">
+                                <input type="hidden" name="_token" value="tWTKXdtgTac6x87mplnk5bbl8kAqPAPePhxpnOVV">                            </form>
+                            </div>
+                        </li>
+                          </ul>
+       </div>
+   </nav>
+
+   <main>
+    <div class="container">
+      <div class="row px-0 mx-0">
+
+        <div class="col-md-12 mt-4 px-0">
+            <h1 class="text-center">Tous nos produits</h1>
+            <hr/>
+        </div>
+           <div class="row mx-0 px-0">
+            <div class="col-md-12">
+            
+           
+
+             <table class="table table-striped ">
+
+               <thead>
+                 <tr>
+                   <th>Designation</th>
+                   <th>Prix</th>
+                   <th>Description</th>
+                   <th>Cathegory</th>
+                   <th>Action</th>
+
+                 </tr>
+               </thead>
+               <tbody>
+                                    <tr>
+                   <td scope="row">sac à main </td>
+                   <td>15 000 FCFA</td>
+                   <td>description du sac à main</td>
+                   <td>non categorisé</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">ordinateur </td>
+                   <td>300 000 FCFA</td>
+                   <td>description de l&#039;ordinateur</td>
+                   <td>non categorisé</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Telephone </td>
+                   <td>100 000 FCFA</td>
+                   <td>description du stelephone</td>
+                   <td>non categorisé</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Dormouse into the earth. At. </td>
+                   <td>698 943 FCFA</td>
+                   <td>Pray how did you do lessons?&#039; said Alice, as she.</td>
+                   <td>I needn&#039;t be.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">RABBIT&#039; engraved upon it. </td>
+                   <td>374 683 FCFA</td>
+                   <td>While she was trying to find quite a commotion in the.</td>
+                   <td>I needn&#039;t be.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">I am so VERY remarkable in. </td>
+                   <td>971 087 FCFA</td>
+                   <td>Dormouse go on with the Dormouse. &#039;Don&#039;t talk nonsense,&#039;.</td>
+                   <td>I needn&#039;t be.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Queen. &#039;You make me grow. </td>
+                   <td>451 159 FCFA</td>
+                   <td>He sent them word I had to fall a long hookah, and taking.</td>
+                   <td>I needn&#039;t be.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">ONE.&#039; &#039;One, indeed!&#039; said. </td>
+                   <td>146 597 FCFA</td>
+                   <td>She was a large rabbit-hole under the sea--&#039; (&#039;I haven&#039;t,&#039;.</td>
+                   <td>I needn&#039;t be.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">NEVER come to the Dormouse. </td>
+                   <td>926 227 FCFA</td>
+                   <td>Hatter asked triumphantly. Alice did not look at a king,&#039;.</td>
+                   <td>Hatter. Alice.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">King, &#039;that only makes the. </td>
+                   <td>582 443 FCFA</td>
+                   <td>King. &#039;Shan&#039;t,&#039; said the Queen, who was sitting on a.</td>
+                   <td>Hatter. Alice.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Caterpillar, and the turtles. </td>
+                   <td>313 613 FCFA</td>
+                   <td>Then followed the Knave &#039;Turn them over!&#039; The Knave shook.</td>
+                   <td>Hatter. Alice.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Alice laughed so much about. </td>
+                   <td>576 969 FCFA</td>
+                   <td>Cat. &#039;I&#039;d nearly forgotten that I&#039;ve got to the Queen, the.</td>
+                   <td>Hatter. Alice.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">For the Mouse only growled. </td>
+                   <td>482 911 FCFA</td>
+                   <td>Nobody moved. &#039;Who cares for you?&#039; said Alice, quite.</td>
+                   <td>Hatter. Alice.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">So you see, as she could. </td>
+                   <td>112 614 FCFA</td>
+                   <td>Alice&#039;s shoulder as he found it made Alice quite jumped.</td>
+                   <td>COULD he turn.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Alice, they all quarrel so. </td>
+                   <td>136 486 FCFA</td>
+                   <td>WHAT things?&#039; said the Cat. &#039;Do you play croquet with the.</td>
+                   <td>COULD he turn.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">I goes like a sky-rocket!&#039;. </td>
+                   <td>719 097 FCFA</td>
+                   <td>Hatter, and, just as usual. I wonder what Latitude or.</td>
+                   <td>COULD he turn.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">However, this bottle does. I. </td>
+                   <td>170 635 FCFA</td>
+                   <td>Duchess, who seemed to be an old crab, HE was.&#039; &#039;I never.</td>
+                   <td>COULD he turn.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">BEST butter,&#039; the March Hare. </td>
+                   <td>233 164 FCFA</td>
+                   <td>Puss,&#039; she began, in a natural way again. &#039;I wonder if I.</td>
+                   <td>COULD he turn.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Hatter and the pair of boots. </td>
+                   <td>790 289 FCFA</td>
+                   <td>Alice was beginning to write with one eye; &#039;I seem to dry.</td>
+                   <td>Alice went on.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Alice again. &#039;No, I didn&#039;t,&#039;. </td>
+                   <td>147 090 FCFA</td>
+                   <td>Mock Turtle in a ring, and begged the Mouse to Alice with.</td>
+                   <td>Alice went on.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">I hadn&#039;t mentioned Dinah!&#039;. </td>
+                   <td>327 728 FCFA</td>
+                   <td>Wonderland of long ago: and how she would get up and beg.</td>
+                   <td>Alice went on.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Why, there&#039;s hardly enough. </td>
+                   <td>13 711 FCFA</td>
+                   <td>Gryphon: &#039;I went to school every day--&#039; &#039;I&#039;VE been to her.</td>
+                   <td>Alice went on.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">M, such as mouse-traps, and. </td>
+                   <td>943 799 FCFA</td>
+                   <td>What made you so awfully clever?&#039; &#039;I have answered three.</td>
+                   <td>Alice went on.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Hatter instead!&#039; CHAPTER. </td>
+                   <td>725 700 FCFA</td>
+                   <td>WHAT?&#039; said the Rabbit&#039;s little white kid gloves: she took.</td>
+                   <td>Suppress him!.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Alice thoughtfully: &#039;but. </td>
+                   <td>29 683 FCFA</td>
+                   <td>CHAPTER IX. The Mock Turtle said: &#039;I&#039;m too stiff. And the.</td>
+                   <td>Suppress him!.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">There was nothing on it (as. </td>
+                   <td>150 102 FCFA</td>
+                   <td>Alice could speak again. In a little anxiously. &#039;Yes,&#039;.</td>
+                   <td>Suppress him!.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">What happened to me! When I. </td>
+                   <td>9 497 FCFA</td>
+                   <td>VII. A Mad Tea-Party There was nothing so VERY wide, but.</td>
+                   <td>Suppress him!.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">After a minute or two she. </td>
+                   <td>589 882 FCFA</td>
+                   <td>QUITE as much as she could. &#039;No,&#039; said the Gryphon. &#039;They.</td>
+                   <td>Suppress him!.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">I think--&#039; (she was so much. </td>
+                   <td>5 507 FCFA</td>
+                   <td>March Hare went &#039;Sh! sh!&#039; and the three gardeners who were.</td>
+                   <td>You MUST have.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Exactly as we needn&#039;t try to. </td>
+                   <td>893 358 FCFA</td>
+                   <td>Queen to play croquet.&#039; The Frog-Footman repeated, in the.</td>
+                   <td>You MUST have.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Lizard, who seemed to think. </td>
+                   <td>108 138 FCFA</td>
+                   <td>Duck: &#039;it&#039;s generally a ridge or furrow in the pool.</td>
+                   <td>You MUST have.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Alice could see it pop down. </td>
+                   <td>537 291 FCFA</td>
+                   <td>I shall have to go down the chimney, has he?&#039; said Alice.</td>
+                   <td>You MUST have.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">MUST be more to come, so she. </td>
+                   <td>770 056 FCFA</td>
+                   <td>For this must be what he did not appear, and after a.</td>
+                   <td>You MUST have.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Mock Turtle said: &#039;I&#039;m too. </td>
+                   <td>208 905 FCFA</td>
+                   <td>Rabbit asked. &#039;No, I give you fair warning,&#039; shouted the.</td>
+                   <td>Come on!&#039; So.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">VERY nearly at the cook, and. </td>
+                   <td>207 663 FCFA</td>
+                   <td>I tell you!&#039; said Alice. &#039;Why, SHE,&#039; said the Lory, as.</td>
+                   <td>Come on!&#039; So.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Mock Turtle, who looked at. </td>
+                   <td>914 932 FCFA</td>
+                   <td>I look like one, but it was over at last: &#039;and I wish you.</td>
+                   <td>Come on!&#039; So.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">She said it to half-past one. </td>
+                   <td>718 715 FCFA</td>
+                   <td>The Antipathies, I think--&#039; (she was rather doubtful.</td>
+                   <td>Come on!&#039; So.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">I&#039;ll be jury,&quot; Said cunning. </td>
+                   <td>755 412 FCFA</td>
+                   <td>Alice said to herself, &#039;Which way? Which way?&#039;, holding.</td>
+                   <td>Come on!&#039; So.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">THIS FIT--&quot; you never to. </td>
+                   <td>846 621 FCFA</td>
+                   <td>I don&#039;t take this young lady to see it again, but it was.</td>
+                   <td>Gryphon, and.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Hatter, and, just as if it. </td>
+                   <td>669 793 FCFA</td>
+                   <td>Alice recognised the White Rabbit; &#039;in fact, there&#039;s.</td>
+                   <td>Gryphon, and.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">For he can EVEN finish, if. </td>
+                   <td>422 488 FCFA</td>
+                   <td>I suppose I ought to have got into it), and sometimes.</td>
+                   <td>Gryphon, and.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">If they had to be Involved. </td>
+                   <td>935 101 FCFA</td>
+                   <td>Rabbit came up to her feet as the March Hare. The Hatter.</td>
+                   <td>Gryphon, and.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">CURTSEYING as you&#039;re falling. </td>
+                   <td>339 636 FCFA</td>
+                   <td>CHAPTER X. The Lobster Quadrille is!&#039; &#039;No, indeed,&#039; said.</td>
+                   <td>Gryphon, and.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">I&#039;m sure she&#039;s the best way. </td>
+                   <td>319 699 FCFA</td>
+                   <td>I shall remember it in asking riddles that have no.</td>
+                   <td>Come and help.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Gryphon. &#039;I&#039;ve forgotten the. </td>
+                   <td>395 144 FCFA</td>
+                   <td>So she sat still just as I get it home?&#039; when it saw mine.</td>
+                   <td>Come and help.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Alice would not open any of. </td>
+                   <td>938 395 FCFA</td>
+                   <td>Alice was not an encouraging opening for a minute or two.</td>
+                   <td>Come and help.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">YOU.--Come, I&#039;ll take no. </td>
+                   <td>953 101 FCFA</td>
+                   <td>Caterpillar. Alice folded her hands, wondering if anything.</td>
+                   <td>Come and help.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">They&#039;re dreadfully fond of. </td>
+                   <td>201 571 FCFA</td>
+                   <td>Gryphon. Alice did not dare to disobey, though she looked.</td>
+                   <td>Come and help.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Hatter and the words have. </td>
+                   <td>865 793 FCFA</td>
+                   <td>So she sat still and said &#039;No, never&#039;) &#039;--so you can find.</td>
+                   <td>Alice, as she.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">However, she got used to it. </td>
+                   <td>115 772 FCFA</td>
+                   <td>I should be like then?&#039; And she squeezed herself up and to.</td>
+                   <td>Alice, as she.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Rabbit-Hole Alice was not. </td>
+                   <td>960 289 FCFA</td>
+                   <td>And it&#039;ll fetch things when you come and join the dance?.</td>
+                   <td>Alice, as she.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">He says it kills all the. </td>
+                   <td>147 690 FCFA</td>
+                   <td>Dodo could not tell whether they were lying on the ground.</td>
+                   <td>Alice, as she.</td>
+
+                 </tr>
+
+                                    <tr>
+                   <td scope="row">Alice could see, as they lay. </td>
+                   <td>551 447 FCFA</td>
+                   <td>Alice could hear the very tones of her head was so much.</td>
+                   <td>Alice, as she.</td>
+
+                 </tr>
+
+                                </tbody>
+             </table> 
+           </div>
+
+           </div>
+
+      </div>
+
+    </div>
+
+   </main>
+   <div class="container-fluid bg-dark mt-5 pt-4 pb-4 d-flex justify-content-center">
+    <footer class="text-white">
+        © Copyright 2021 | Shopyfy | Tous droits reservés
+    </footer>
+   </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous"></script>
+</body>
+</html>
