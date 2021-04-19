@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
 
             ProduitSeeder::class,
             RoleSeeder::class,
-            CategorySeeder::class,
+           // CategorySeeder::class,
         ]);
 
         /*Produit::factory(100)->create();
