@@ -1,4 +1,4 @@
-<x-master-layout>
+<x-master-layout title=" | Nouveau">
     <div class="container">
         <div class="row">
             <div class="col-md-12 mt-4">
